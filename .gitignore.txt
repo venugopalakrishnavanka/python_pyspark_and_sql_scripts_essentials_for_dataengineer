@@ -1,0 +1,13 @@
+# Python & PySpark
+__pycache__/
+*.py[cod]
+*$py.class
+metastore_db/
+derby.log
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Environment
+.venv/
+venv/
