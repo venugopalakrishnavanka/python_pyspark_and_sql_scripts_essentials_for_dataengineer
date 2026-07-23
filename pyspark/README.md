@@ -2,6 +2,26 @@ Based on the provided notes on Spark DataFrames, PySpark, and Spark SQL, here is
 
 ---
 
+Markdown
+# PySpark & Spark SQL Study Material & Cheat Sheet
+
+This repository contains comprehensive notes, code snippets, and key concepts for working with **Apache Spark**, **PySpark DataFrames**, and **Spark SQL**.
+
+---
+
+## Table of Contents
+- [1. Filtering Data](#1-filtering-data)
+- [2. Spark SQL Views](#2-spark-sql-views)
+- [3. Selecting & Renaming Columns](#3-selecting--renaming-columns)
+- [4. Dropping Columns & Duplicates](#4-dropping-columns--duplicates)
+- [5. Sorting Data & Null Handling](#5-sorting-data--null-handling)
+- [6. Aggregations & GroupBy](#6-aggregations--groupby)
+- [7. Joins in PySpark](#7-joins-in-pyspark)
+- [8. Reading & Writing Data](#8-reading--writing-data)
+- [9. Transformations, Actions & Performance Tuning](#9-transformations-actions--performance-tuning)
+
+---
+
 ## 1. Filtering Data from DataFrames
 
 You can filter DataFrames using either `.filter()` or `.where()`. Both functions perform the same operation and can be written using **NoSQL (Pythonic/Column object API)** syntax or **SQL string** syntax.
